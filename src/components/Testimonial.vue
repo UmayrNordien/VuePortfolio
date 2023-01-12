@@ -1,6 +1,6 @@
 <template>
   <!--div for positioning-->
-  <div class="testimonial-carousal">
+  <div id="testimonial-carousal" class="testimonial-carousal">
     <div class="container-fluid" id="container-carousal">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
@@ -99,13 +99,7 @@ export default {
   margin-top: 125px;
   overflow-x: none;
 }
-
-/* .container-carousal {
-  width: 100vw;
-  height: 100vh;
+#testimonial-carousal {
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
-.carousel-control-prev, .carousel-control-next {
-  width: 150px;
-} */
-
 </style>

@@ -2,7 +2,7 @@
   <div v-if="ResumeArray">
     <div v-for="item in ResumeArray" :key="item">
   
-      <div class="container mx-auto mt-5 pt-5">
+      <div id="resume-card" class="container mx-auto mt-5 pt-5">
         <div class="row">
           <div class="card bg-transparent">
             <div class="card-body">
@@ -64,5 +64,7 @@ export default {
 
 
 <style scoped>
-
+#resume-card{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
 </style>

@@ -24,7 +24,7 @@
             creative space
             I believe coding and programming is the <strong>future</strong></p>
         </div>
-
+        <!--slide animation-->
         <!-- <div class="card slide">My name is Umayr Nordien, I was born in Cape Town, Western Cape.</div> -->
       </div>
     </div>

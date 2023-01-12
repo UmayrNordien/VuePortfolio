@@ -2,7 +2,7 @@
   <div v-if="ProjectsArray">
     <div v-for="project in ProjectsArray" :key="project">
 
-      <div class="container mx-auto mt-5 pt-5">
+      <div id="project-card" class="container mx-auto mt-5 pt-5">
         <div class="row">
           <div class="card bg-transparent">
             <div class="card-body">
@@ -70,5 +70,8 @@ export default {
 }
 #btn2:hover{
   background-color: rgb(210, 215, 159);
+}
+#project-card{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 </style>
