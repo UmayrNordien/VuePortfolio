@@ -25,47 +25,52 @@
             I believe coding and programming is the <strong>future</strong></p>
         </div>
 
-        <div class="card slide">My name is Umayr Nordien, I was born in Cape Town, Western Cape.</div>
+        <!-- <div class="card slide">My name is Umayr Nordien, I was born in Cape Town, Western Cape.</div> -->
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-#about{
+#about {
   margin-top: 125px;
   margin-bottom: 250px;
-  text-shadow: 4px 4px 4px black;
-  background: rgba(0, 0, 0, 0.6);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
-.card{
+
+.card {
   font-size: 20px;
   width: 70%;
   display: inline-block;
   margin: 1rem;
   color: black;
-  box-shadow: 0 1px 2px 0 #76d337;
+  box-shadow: 0 1px 2px 0 #444544;
 }
-.slide{
-  animation: slidein 2s ease 0s 1 forwards; 
+
+.slide {
+  animation: slidein 2s ease 0s 1 forwards;
 }
+
 @keyframes slidein {
-    from{
-        transform: translateX(1244px);
-    }
-    to{
-        transform: translateX(0px);
-    }
+  from {
+    transform: translateY(1244px);
+  }
+
+  to {
+    transform: translateY(10px);
+    background: rgb(125, 125, 125);
+  }
 }
 
 @media screen and (max-width: 566px) {
-    #about{
-      margin-top: 55px;
-    }
+  #about {
+    margin-top: 55px;
+  }
 }
+
 @media screen and (max-width: 380px) {
-    #about{
-      margin-top: 22.5px;
-    }
+  #about {
+    margin-top: 22.5px;
+  }
 }
 </style>

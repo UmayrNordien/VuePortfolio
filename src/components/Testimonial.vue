@@ -69,9 +69,9 @@ export default {
                     occupation: 'student'
                 },
                 {
-                    name: 'Person 4',
+                    name: 'Aneeqah Brown',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
-                    text: 'lorem',
+                    text: 'Umayr is a highly thought intellectual from my perspective. He is not only hardworking but ambitious to recreate his vision exactly as thought of. He does his work accordingly and always provide a helping hand. He has great communication and leadership skills that a company needs especially his creativity',
                     occupation: 'lecturer'
                 },
                 {
