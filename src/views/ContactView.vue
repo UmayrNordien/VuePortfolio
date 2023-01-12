@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="contact">
         <!-- <div id="contact">
             <img src="Assets/font-images/Contact font image.png" alt="Contact font image" height="110px" width="220px"
                 class="mx-auto d-block m-5 image-fluid" loading="lazy">
@@ -73,5 +73,15 @@
 <style scoped>
 .btn:hover{
     background-color: #D2D79F;
+}
+
+#contact{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+    #contact{
+    margin-bottom: 100px;
+    }
 }
 </style>

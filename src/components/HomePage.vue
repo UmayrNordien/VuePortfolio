@@ -1,49 +1,51 @@
 <template>
-  <div class="hello">
-  </div>
+  <div id="home">
 
-  <div class="container">
+    <div class="container">
 
-    <div class="row justify-content-evenly mt-5 pt-4 table-fluid text-center position-relative">
-      <div class="col-12">
-        <!-- <h4>My Portfolio</h4> -->
-        <h4>Hello, My Name is Umayr</h4>
-        <p> I believe Coding is the future</p>
-        <p>I am a student and an aspiring web developer</p>
-      </div>
-
-      <div class="row justify-content-evenly table-fluid text-center position-relative">
+      <div class="row justify-content-evenly mt-5 pt-4 table-fluid text-center position-relative">
         <div class="col-12">
-          <img src="https://i.postimg.cc/654xP1PF/Profile-image.jpg" class="img-thumbnail" width="300px" height="300px"
-            alt="Barcode" loading="lazy">
-        </div>
-      </div>
-
-      <!--SOCIAL MEDIA POPOVER-->
-      <button class="btn btn-outline-light mt-2 w-25" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Drop the socials a follow</button>
-
-      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasBottomLabel">Socials</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <!-- <h4>My Portfolio</h4> -->
+          <h4>Hello, My Name is Umayr</h4>
+          <p> I believe Coding is the future</p>
+          <p>I am a student and an aspiring web developer</p>
         </div>
 
-        <div class="offcanvas-body mx-auto overflow-hidden">
-          <!--overflow-hidden removes the horizontal scroll (bootstrap)-->
-          <div>
-            <a href="https://www.facebook.com/profile.php?id=100003367218579">
-              <div class="SocialIconContainer"></div>
-            </a>
-            <a href="https://github.com/UmayrNordien">
-              <div class="SocialIconContainer2"></div>
-            </a>
-            <a href="https://www.instagram.com/umayrnordien/">
-              <div class="SocialIconContainer3"></div>
-            </a>
+        <div class="row justify-content-evenly table-fluid text-center position-relative">
+          <div class="col-12">
+            <img src="https://i.postimg.cc/654xP1PF/Profile-image.jpg" class="img-thumbnail" width="300px"
+              height="300px" alt="Barcode" loading="lazy">
           </div>
         </div>
+
+        <!--SOCIAL MEDIA POPOVER-->
+        <button id="socials-tbn" class="btn btn-outline-light mt-2 w-25" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">socials</button>
+
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+          aria-labelledby="offcanvasBottomLabel">
+
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Socials</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body mx-auto overflow-hidden">
+            <!--overflow-hidden removes the horizontal scroll (bootstrap)-->
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100003367218579">
+                <div class="SocialIconContainer"></div>
+              </a>
+              <a href="https://github.com/UmayrNordien">
+                <div class="SocialIconContainer2"></div>
+              </a>
+              <a href="https://www.instagram.com/umayrnordien/">
+                <div class="SocialIconContainer3"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -190,4 +192,26 @@ a {
 .btn:hover{
     background-color: #D2D79F;
 }
+
+#home{
+  margin-top: 85px;
+  margin-bottom: 5px;
+}
+
+// @media screen and (max-width: 767px) {
+//     #home{
+//       margin-top: 55px;
+//       margin-bottom: 75px;
+//     }
+// }
+// @media screen and (max-width: 576px) {
+//     #home{
+//       margin-top: 75px;
+//     }
+// }
+// @media screen and (max-width: 380px) {
+//     #home{
+//       margin-top: 22.5px;
+//     }
+// }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-custom">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark opacity-75 navbar-custom">
 
             <div class="container-fluid">
                 <!--LOGO IMAGE-->

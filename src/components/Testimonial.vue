@@ -49,23 +49,23 @@ export default {
         return {
             TestimonialActiveArray: [
                 {
-                    name: 'Person 1',
+                    name: 'Javier Goodall',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
-                    text: 'lorem',
+                    text: 'He is still a very dedicated and passionate about web development,where he spends a lot of his time completing projects and upskilling himself',
                     relation: 'student'
                 }
             ],
             TestimonialArray:[
                 {
-                    name: 'Person 2',
+                    name: 'Deno Rautenbach',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
-                    text: 'lorem',
+                    text: 'Umayrs quiet demeanor creates a mystique aura of wonder around the depth of his character, So deep that all i have for him is the utmost respect and admiration in his stoic approach to life .Having worked with him, I can proudly say his steadfast, results oriented methodology is one everyone should strive for and implement',
                     occupation: 'student'
-                },
+                  },
                 {
-                    name: 'Person 3',
+                    name: 'Asandile Langeni',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
-                    text: 'lorem',
+                    text: 'Umayr is a good person who is quiet but pays attention to everything that is happening around him.He likes to upskill himself so that he can new knowledge all the time.He is always there to lend a helping hand',
                     occupation: 'student'
                 },
                 {
@@ -75,9 +75,9 @@ export default {
                     occupation: 'lecturer'
                 },
                 {
-                    name: 'Person 5',
+                    name: 'Joel Mukanya',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
-                    text: 'lorem',
+                    text: 'Umayr is a very creative, go-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I will be very delighted to see him get hired',
                     occupation: 'student'
                 },
                 {
@@ -96,7 +96,7 @@ export default {
 <style scoped>
 .testimonial-carousal {
   background-color: none;
-  margin-top: 200px;
+  margin-top: 125px;
   overflow-x: none;
 }
 
