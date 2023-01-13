@@ -27,10 +27,12 @@ export default {
   font-family: 'Caveat', cursive;
   font-family: 'Pathway Gothic One', sans-serif;
   font-family: 'Sedgwick Ave Display', cursive;
+  scroll-behavior: smooth;
 }
 
 body{
-  background-image: url(https://i.postimg.cc/YqMy6DH1/pexels-daniel-absi-952670.jpg);
+  // background-image: url(https://i.postimg.cc/YqMy6DH1/pexels-daniel-absi-952670.jpg);
+  background-image: url(https://i.postimg.cc/DfDZFDj3/Polish-20230112-223548099.jpg);
 }
 
 nav {

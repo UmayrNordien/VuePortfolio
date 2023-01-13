@@ -198,6 +198,9 @@ a {
   margin-bottom: 5px;
 }
 
+.img-thumbnail:hover{
+  transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 // @media screen and (max-width: 767px) {
 //     #home{
 //       margin-top: 55px;

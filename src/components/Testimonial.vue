@@ -10,18 +10,18 @@
             :key="test.id">
 
             <img :src="test.image" class="img-fluid d-block w-25 mx-auto" alt="testimony" loading="lazy">
-            <p class="lead text-center text-muted"> {{ test.occupation }}</p>
+            <p class="lead text-center"> {{ test.occupation }}</p>
             <h5 class="text-white text-center mx-auto pt-1"> {{ test.name }}</h5>
-            <p class="lead text-center text-light w-50 mx-auto px-0 px-md-5 mb-5 pb-5">{{ test.text }}</p>  <!--mb-5 used to create space between the carousal and the copyright-->
+            <p class="lead text-center  w-50 mx-auto px-0 px-md-5 mb-5 pb-5">{{ test.text }}</p>  <!--mb-5 used to create space between the carousal and the copyright-->
           </div>
 
           <div class="carousel-item" data-bs-interval="10000" v-for="test in TestimonialArray" 
           :key="test.id">
 
             <img :src="test.image" class="img-fluid d-block w-25 mx-auto" alt="testimony" loading="lazy">
-            <p class="lead text-center text-muted">{{ test.occupation }}</p>
+            <p class="lead text-center">{{ test.occupation }}</p>
             <h5 class="text-white text-center mx-auto pt-1">{{ test.name }}</h5>
-            <p class="lead text-center text-light mx-auto w-50 px-lg-5 mb-5">{{ test.text }}
+            <p class="lead text-center mx-auto w-50 px-lg-5 mb-5">{{ test.text }}
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default {
                     name: 'Javier Goodall',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
                     text: 'He is still a very dedicated and passionate about web development,where he spends a lot of his time completing projects and upskilling himself',
-                    relation: 'student'
+                    occupation: 'student'
                 }
             ],
             TestimonialArray:[
@@ -99,7 +99,10 @@ export default {
   margin-top: 125px;
   overflow-x: none;
 }
-#testimonial-carousal {
+/* #testimonial-carousal {
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+} */
+.img-fluid:hover{
+  transform: scale(1.115); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 </style>

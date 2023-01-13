@@ -71,7 +71,10 @@ export default {
 #btn2:hover{
   background-color: rgb(210, 215, 159);
 }
-#project-card{
+/* #project-card{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+} */
+.card-img-top:hover{
+  transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 </style>

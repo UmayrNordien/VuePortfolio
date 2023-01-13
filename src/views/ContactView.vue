@@ -84,7 +84,7 @@
     margin-bottom: 100px;
     }
 }
-.form-label{
+/* .form-label{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
-}
+} */
 </style>

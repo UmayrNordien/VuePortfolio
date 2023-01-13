@@ -64,7 +64,10 @@ export default {
 
 
 <style scoped>
-#resume-card{
+/* #resume-card{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+} */
+.img-thumbnail:hover{
+  transform: scale(1.01); 
 }
 </style>
