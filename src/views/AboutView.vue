@@ -58,7 +58,7 @@
 }
 
 .slide {
-  animation: slidein 2s ease 0s 1 forwards;
+  animation: slidein 1.5s ease 0s 1 forwards;
 }
 
 @keyframes slidein {
