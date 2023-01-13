@@ -72,13 +72,13 @@ export default {
                     name: 'Aneeqah Brown',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
                     text: 'Umayr is a highly thought intellectual from my perspective. He is not only hardworking but ambitious to recreate his vision exactly as thought of. He does his work accordingly and always provide a helping hand. He has great communication and leadership skills that a company needs especially his creativity',
-                    occupation: 'lecturer'
+                    occupation: 'student'
                 },
                 {
                     name: 'Joel Mukanya',
                     image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
                     text: 'Umayr is a very creative, go-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I will be very delighted to see him get hired',
-                    occupation: 'student'
+                    occupation: 'lecturer'
                 },
                 {
                     name: 'Person 6',

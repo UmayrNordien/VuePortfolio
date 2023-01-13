@@ -11,7 +11,7 @@
               <img :src="item.image" :style="{width: '300px', height: '250px'}" class="img-thumbnail card-img-top">
               <br>            
               <br>            
-              <p class="card-text">{{ item.text }}</p>
+              <p class="card-text w-25 mx-auto">{{ item.text }}</p>
             </div>
           </div>
         </div>
@@ -36,13 +36,14 @@ export default {
           heading: 'Darun Naim',
           year: "2017-2019",
           // image: 'https://i.postimg.cc/vHwhZWvt/DN-Logo-Transparent-e1607643685726.png',
+          image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
           text: 'Spent 2 years studying Islamic religious studies (Arabic translation and Morphology) at Darun Naim Islamic Institute. Shortly after, i spent some time helping out my Grandmother with her Badge Making business. Beveling of badges, packaging and deliveries to other schools and businesses for over a year while looking to make a career choice.'
         },
         {
           heading: 'Exclusive Badge Company',
           year: "2020",
-          // image: '',
-          text: 'Spent a year or so assisting with the beveling of badges and deliveries to schools and businesses nearby'
+          image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
+          text: 'Spent a year assisting with the beveling of badges, packaging and deliveries to primary and high schools and certain select private businesses nearby'
         },
         {
           heading: 'Sales - Outbound',
@@ -54,6 +55,7 @@ export default {
           heading: 'Census - STATS SA',
           year: '2022',
           // image: 'https://i.postimg.cc/PqRHWnSD/Polish-20221013-235216197.png',
+          image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
           text: 'Last employed under StatsSA where time was spent as a fieldworker conducting data collection, data capturing, data processing ,and some supervisory work where communication skills and drive to push forward is necessary, Ive gained valuable experience and perspectives of different types of people from all backgrounds, interviewing and having conversations with thousands of people.'
         },
       ]

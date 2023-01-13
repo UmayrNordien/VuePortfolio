@@ -77,4 +77,9 @@ export default {
 .card-img-top:hover{
   transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.btn:hover{
+  transform: translateY(2px);
+  scale: (1.05);
+  transition: 2s;
+}
 </style>

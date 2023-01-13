@@ -19,7 +19,7 @@
         </div>
 
         <!--SOCIAL MEDIA POPOVER-->
-        <button id="socials-tbn" class="btn btn-outline-light mt-2 w-25" type="button" data-bs-toggle="offcanvas"
+        <button id="socials-btn" class="btn btn-outline-light mt-2 w-25" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">socials</button>
 
         <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
@@ -98,7 +98,6 @@ a {
   /* position */
   float: right;
 
-  // background-image:url(/Assets/social-media-icons/Facebook\ Icon\ \(Lavender\).png) !important;
   background-image:url(https://i.postimg.cc/YSXg3j67/output-onlinepngtools.png);
   background-size: cover;
 }
@@ -117,7 +116,6 @@ a {
   float: right;
 
 
-  // background-image:url(/Assets/social-media-icons/Github\ Icon\ \(Lavender\).png);
   background-image:url(https://i.postimg.cc/SRHHzyT7/output-onlinepngtools-1.png);
 
   background-size: cover;
@@ -137,17 +135,8 @@ a {
   float: right;
 
 
-  // background-image:url(/Assets/social-media-icons/Instagram\ Icon\ \(Lavender\).png);
   background-image:url(https://i.postimg.cc/4xfj7Fw0/output-onlinepngtools-2.png);
   background-size: cover;
-}
-
-/* form color */
-/* custom form input colors and styling */
-.form-control:focus {
-  border-color: rgb(227, 154, 193);
-  color: rgb(127, 110, 172);
-  box-shadow: inset 0 1px 1px rgb(255, 255, 255), 0 0 8px rgb(127, 110, 172);
 }
 
 /* ICON HOVER */
@@ -217,4 +206,10 @@ a {
 //       margin-top: 22.5px;
 //     }
 // }
+
+#socials-btn:hover{
+  transform: translateY(2px);
+  scale: (1.05);
+  transition: 2s;
+}
 </style>

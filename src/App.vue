@@ -48,5 +48,8 @@ nav {
       text-decoration: none;
     }
   }
+  a:hover{
+    color:rgb(210, 215, 159)
+  }
 }
 </style>

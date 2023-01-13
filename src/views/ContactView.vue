@@ -87,4 +87,23 @@
 /* .form-label{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
 } */
+
+/* form color */
+/* custom form input colors and styling */
+.form-control:focus {
+  background-color: transparent;
+  border-color: rgb(66, 133, 91);
+  color: rgb(255, 255, 255);
+  box-shadow: inset 0 1px 1px rgb(66, 133, 91), 0 0 8px rgb(210, 215, 159);
+  transition: 5s;
+}
+.form-label:focus{
+ background-color: rgba(255, 255, 255, 0.454);
+}
+.form-select:focus{
+ background-color: rgba(255, 255, 255, 0.454);
+ border-color: rgb(66, 133, 91);
+  box-shadow: inset 0 1px 1px rgb(66, 133, 91), 0 0 8px rgb(210, 215, 159);
+  transition: 5s
+}
 </style>

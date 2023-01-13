@@ -3,19 +3,22 @@
 
     <div class="row justify-content-evenly position-relative mb-3">
       <div class="col-12">
-        <img src="https://i.postimg.cc/W1rTqdhb/Profile-Img2-Blur.jpg" class="img-thumbnail image-fluid bg-image hover-zoom" width="300px" height="300px"
-          alt="BlurEffectProfileImg" loading="lazy">
+        <img src="https://i.postimg.cc/W1rTqdhb/Profile-Img2-Blur.jpg"
+          class="img-thumbnail image-fluid bg-image hover-zoom" width="300px" height="300px" alt="BlurEffectProfileImg"
+          loading="lazy">
       </div>
     </div>
 
-    <div class="row flipcardrow">
+    <div class="row flipcardrow slide">
       <div class="column">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <span>My name is Umayr Nordien, I was born in Cape Town, Western Cape.
-                My hobbies include training and sparring in various Martials Arts including Judo (where I competed actively
-                throughout High School as regional champion for Western Cape and Boland), Silat and recently Muay Thai. I
+                My hobbies include training and sparring in various Martials Arts including Judo (where I competed
+                actively
+                throughout High School as regional champion for Western Cape and Boland), Silat and recently Muay Thai.
+                I
                 believe heavily in discipline and moral values.
                 I am also a avid gamer and really enjoy the competitive aspect too
                 <br>
@@ -31,9 +34,10 @@
                 overall
                 ability
                 I was previously interested in animation and graphical design, to seek a career the creative industry.
-    
+
                 These industries are heavily influenced by current technology and trends
-                I've chosen to gain programming and coding knowledge to up my skills and to seek employment in the computing
+                I've chosen to gain programming and coding knowledge to up my skills and to seek employment in the
+                computing
                 or
                 creative space
                 I believe coding and programming is the <strong>future</strong></span>
@@ -43,34 +47,6 @@
       </div>
     </div>
 
-    <!-- <div class="container mt-3 pt-5">
-      <div class="row justify-content-evenly mt-2 pt-5 table-fluid text-center position-relative">
-        <div class="col-12">
-          <p>My name is Umayr Nordien, I was born in Cape Town, Western Cape.
-            My hobbies include training and sparring in various Martials Arts including Judo (where I competed actively
-            throughout High School as regional champion for Western Cape and Boland), Silat and recently Muay Thai. I
-            believe heavily in discipline and moral values.
-            I am also a avid gamer and really enjoy the competitive aspect too.</p>
-        </div>
-        <div class="col-12">
-          <p>I graduated at Norman Henshilwood High School and studied religious studies thereafter.
-            Since, I've gained valuable work experience as a salesman doing both inbound and outbound calls while at
-            home.
-            I've also been employed at StatsSA, conducting the CENSUS 2022 which has been extremely crucial in my
-            overall
-            ability
-            I was previously interested in animation and graphical design, to seek a career the creative industry.
-
-            These industries are heavily influenced by current technology and trends
-            I've chosen to gain programming and coding knowledge to up my skills and to seek employment in the computing
-            or
-            creative space
-            I believe coding and programming is the <strong>future</strong></p>
-        </div> -->
-        <!--slide animation-->
-        <!-- <div class="card slide">My name is Umayr Nordien, I was born in Cape Town, Western Cape.</div> -->
-      <!-- </div>
-    </div> -->
   </div>
 </template>
 
@@ -79,14 +55,6 @@
   margin-top: 65px;
   margin-bottom: 25px;
   /* text-shadow: 4px 4px 4px rgb(0, 0, 0); */
-}
-
-/* .card {
-  background-color: black;
-  font-size: 20px;
-  width: 70%;
-  display: inline-block;
-  margin: 10px;
 }
 
 .slide {
@@ -100,10 +68,10 @@
 
   to {
     transform: translateY(10px);
-    background: rgb(125, 125, 125);
   }
-} */
+}
 
+/* RESPONSIVENESS */
 @media screen and (max-width: 566px) {
   #about {
     margin-top: 55px;
@@ -117,10 +85,10 @@
 }
 
 /* FLIPCARD */
-
-div{
+div {
   color: white !important;
 }
+
 .flipcardrow {
   margin-right: auto !important;
   margin-left: auto !important;
@@ -133,10 +101,8 @@ div{
   border: 2px solid white;
   border-radius: 20px;
   perspective: 1000px;
-  /* Remove this if you don't want the 3D effect */
   margin: auto;
   margin-bottom: 20px;
-
 }
 
 /* This container is needed to position the front and back side */
@@ -188,35 +154,44 @@ span {
 }
 
 @media screen and (max-width: 634px) {
-  .flip-card{
+  .flip-card {
     width: 450px;
   }
 }
+
 @media screen and (max-width: 486px) {
-  .flip-card{
+  .flip-card {
     width: 300px;
   }
-  .flip-card-front, .flip-card-back{
+
+  .flip-card-front,
+  .flip-card-back {
     font-size: 12px;
   }
-  .flip-card-front{
+
+  .flip-card-front {
     padding-top: 50px;
   }
-  .flip-card-back{
+
+  .flip-card-back {
     padding-top: 5px;
-    padding-right:5px;
-    padding-left:5px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
-  @media screen and (max-width: 322px) {
-  .flip-card{
+
+@media screen and (max-width: 322px) {
+  .flip-card {
     width: 280px;
   }
-  .img-thumbnail{
+
+  .img-thumbnail {
     width: 280px;
   }
 }
-  .hover-zoom:hover {
-  transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+.hover-zoom:hover {
+  transform: scale(1.01);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 </style>
