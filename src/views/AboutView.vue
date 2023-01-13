@@ -52,7 +52,7 @@
 
 <style scoped>
 #about {
-  margin-top: 65px;
+  margin-top: 60px;
   margin-bottom: 25px;
   /* text-shadow: 4px 4px 4px rgb(0, 0, 0); */
 }
