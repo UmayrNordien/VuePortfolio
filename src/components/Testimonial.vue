@@ -84,7 +84,7 @@ export default {
                 },
                 {
                     name: 'Gift Mahlangu',
-                    image: 'https://i.postimg.cc/nVqGX4fP/Gift-Mahlangu.jpg',
+                    image: 'https://i.postimg.cc/MTm0Fw58/Gift-Mahlangu.jpg',
                     text: 'Umayr  is a determined and hard working person who is passionate about software development. He is a creative person and has great coding skills coupled with a great personality. He works well in a team and can also work well on his own.',
                     occupation: 'student'
                 }
