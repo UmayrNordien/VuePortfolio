@@ -22,7 +22,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  size: 16px;
+  font-size: 16px;
   color:rgb(229, 229, 229);
   font-family: 'Caveat', cursive;
   font-family: 'Pathway Gothic One', sans-serif;

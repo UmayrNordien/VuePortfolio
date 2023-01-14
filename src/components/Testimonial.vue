@@ -1,6 +1,6 @@
 <template>
   <!--div for positioning-->
-  <div id="testimonial-carousal" class="testimonial-carousal">
+  <div id="testimonial-carousal"  class="testimonial-carousal">
     <div class="container-fluid" id="container-carousal">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
@@ -10,7 +10,7 @@
             :key="test.id">
 
             <img :src="test.image" class="img-fluid d-block w-25 mx-auto" alt="testimony" loading="lazy">
-            <p class="lead text-center"> {{ test.occupation }}</p>
+            <p id="occu-color" class="lead text-center"> {{ test.occupation }}</p>
             <h5 class="text-white text-center mx-auto pt-1"> {{ test.name }}</h5>
             <p class="lead text-center  w-50 mx-auto px-0 px-md-5 mb-5 pb-5">{{ test.text }}</p>  <!--mb-5 used to create space between the carousal and the copyright-->
           </div>
@@ -31,6 +31,7 @@
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -50,7 +51,8 @@ export default {
             TestimonialActiveArray: [
                 {
                     name: 'Javier Goodall',
-                    image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
+                    image: 'https://i.postimg.cc/bJzVJZDM/DSC-3562.jpg',
+                    // image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
                     text: 'He is still a very dedicated and passionate about web development,where he spends a lot of his time completing projects and upskilling himself',
                     occupation: 'student'
                 }
@@ -58,25 +60,25 @@ export default {
             TestimonialArray:[
                 {
                     name: 'Deno Rautenbach',
-                    image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
+                    image: 'https://i.postimg.cc/9Fqbcdg0/DSC-3597.jpg',
                     text: 'Umayrs quiet demeanor creates a mystique aura of wonder around the depth of his character, So deep that all i have for him is the utmost respect and admiration in his stoic approach to life .Having worked with him, I can proudly say his steadfast, results oriented methodology is one everyone should strive for and implement',
                     occupation: 'student'
                   },
                 {
                     name: 'Asandile Langeni',
-                    image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
+                    image: 'https://i.postimg.cc/nV58d1Qh/DSC-3625.jpg',
                     text: 'Umayr is a good person who is quiet but pays attention to everything that is happening around him.He likes to upskill himself so that he can new knowledge all the time.He is always there to lend a helping hand',
                     occupation: 'student'
                 },
                 {
                     name: 'Aneeqah Brown',
-                    image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
+                    image: 'https://i.postimg.cc/tT8jVd3J/DSC-3548.jpg',
                     text: 'Umayr is a highly thought intellectual from my perspective. He is not only hardworking but ambitious to recreate his vision exactly as thought of. He does his work accordingly and always provide a helping hand. He has great communication and leadership skills that a company needs especially his creativity',
                     occupation: 'student'
                 },
                 {
                     name: 'Joel Mukanya',
-                    image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
+                    image: 'https://i.postimg.cc/0NLWYVBT/Joel-Profile.jpg',
                     text: 'Umayr is a very creative, go-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I will be very delighted to see him get hired',
                     occupation: 'lecturer'
                 },
@@ -104,5 +106,16 @@ export default {
 } */
 .img-fluid:hover{
   transform: scale(1.115); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.h5{
+  color: rgb(144, 183, 125) !important;
+}
+body{
+  font-size: 12px;
+}
+@media screen and (max-width: 971px) {
+  .test p h5{
+    font-size: 12px !important;
+  }
 }
 </style>

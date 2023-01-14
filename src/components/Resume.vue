@@ -36,13 +36,15 @@ export default {
           heading: 'Darun Naim',
           year: "2017-2019",
           // image: 'https://i.postimg.cc/vHwhZWvt/DN-Logo-Transparent-e1607643685726.png',
-          image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
+          image: 'https://i.postimg.cc/x85mtdtw/Web-capture-14-1-2023-9959-darun-naim-co-za.jpg',
+          // image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
           text: 'Spent 2 years studying Islamic religious studies (Arabic translation and Morphology) at Darun Naim Islamic Institute. Shortly after, i spent some time helping out my Grandmother with her Badge Making business. Beveling of badges, packaging and deliveries to other schools and businesses for over a year while looking to make a career choice.'
         },
         {
           heading: 'Exclusive Badge Company',
           year: "2020",
-          image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
+          image: 'https://i.postimg.cc/TYm1d1Vf/Badge-Making.jpg',
+          // image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
           text: 'Spent a year assisting with the beveling of badges, packaging and deliveries to primary and high schools and certain select private businesses nearby'
         },
         {
@@ -55,7 +57,8 @@ export default {
           heading: 'Census - STATS SA',
           year: '2022',
           // image: 'https://i.postimg.cc/PqRHWnSD/Polish-20221013-235216197.png',
-          image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
+          // image: 'https://i.postimg.cc/KYrQ5Mzc/image.jpg',
+          image: 'https://i.postimg.cc/jdNHpsCJ/Web-capture-14-1-2023-92830-www-fotor-com.jpg',
           text: 'Last employed under StatsSA where time was spent as a fieldworker conducting data collection, data capturing, data processing ,and some supervisory work where communication skills and drive to push forward is necessary, Ive gained valuable experience and perspectives of different types of people from all backgrounds, interviewing and having conversations with thousands of people.'
         },
       ]
