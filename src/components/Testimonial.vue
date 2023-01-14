@@ -12,7 +12,7 @@
             <img :src="test.image" class="img-fluid d-block w-25 mx-auto" alt="testimony" loading="lazy">
             <p id="occu-color" class="lead text-center"> {{ test.occupation }}</p>
             <h5 class="text-white text-center mx-auto pt-1"> {{ test.name }}</h5>
-            <p class="lead text-center  w-50 mx-auto px-0 px-md-5 mb-5 pb-5">{{ test.text }}</p>  <!--mb-5 used to create space between the carousal and the copyright-->
+            <p class="lead text-center  w-75 mx-auto px-0 px-md-5 mb-5 pb-5">{{ test.text }}</p>  <!--mb-5 used to create space between the carousal and the copyright-->
           </div>
 
           <div class="carousel-item" data-bs-interval="10000" v-for="test in TestimonialArray" 
@@ -83,9 +83,9 @@ export default {
                     occupation: 'lecturer'
                 },
                 {
-                    name: 'Person 6',
-                    image: 'https://i.postimg.cc/wMRg77kg/istockphoto-1152265845-170667a.jpg',
-                    text: 'lorem',
+                    name: 'Gift Mahlangu',
+                    image: 'https://i.postimg.cc/nVqGX4fP/Gift-Mahlangu.jpg',
+                    text: 'Umayr  is a determined and hard working person who is passionate about software development. He is a creative person and has great coding skills coupled with a great personality. He works well in a team and can also work well on his own.',
                     occupation: 'student'
                 }
             ]

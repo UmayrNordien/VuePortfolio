@@ -7,8 +7,8 @@
         <div class="col-12">
           <!-- <h4>My Portfolio</h4> -->
           <h4>Hello, My Name is Umayr</h4>
-          <p> I believe Coding is the future</p>
-          <p>I am a student and an aspiring web developer</p>
+          <p class="p-color"> I believe Coding is the future</p>
+          <p class="p-color2">I am a student and an aspiring web developer</p>
         </div>
 
         <div class="row justify-content-evenly table-fluid text-center position-relative">
@@ -67,6 +67,17 @@ export default {
 
 h3 {
   margin: 40px 0 0;
+}
+
+h4{
+  color: #42b983
+}
+
+.p-color{
+  color:  rgb(144, 183, 125);
+}
+.p-color2{
+  color: rgb(210, 215, 159);
 }
 
 ul {

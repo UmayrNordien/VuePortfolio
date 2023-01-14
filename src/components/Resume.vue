@@ -2,7 +2,7 @@
   <div v-if="ResumeArray">
     <div v-for="item in ResumeArray" :key="item">
   
-      <div id="resume-card" class="container mx-auto mt-5 pt-5">
+      <div id="resume-card" class="container m-0 p-0 mx-auto mt-5 pt-5">
         <div class="row">
           <div class="card bg-transparent">
             <div class="card-body">
@@ -11,7 +11,7 @@
               <img :src="item.image" :style="{width: '300px', height: '250px'}" class="img-thumbnail card-img-top">
               <br>            
               <br>            
-              <p class="card-text w-25 mx-auto">{{ item.text }}</p>
+              <p class="card-text w-50 mx-auto">{{ item.text }}</p>
             </div>
           </div>
         </div>
