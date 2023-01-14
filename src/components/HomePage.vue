@@ -3,7 +3,7 @@
 
     <div class="container">
 
-      <div class="row justify-content-evenly mt-2 pt-4 table-fluid text-center position-relative">
+      <div class="row justify-content-evenly mt-1 pt-4 table-fluid text-center position-relative">
         <div class="col-12">
           <!-- <h4>My Portfolio</h4> -->
           <h4>Hello, My Name is Umayr</h4>
