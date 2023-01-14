@@ -1,7 +1,7 @@
 <template>
   <div id="about">
 
-    <div class="row justify-content-evenly position-relative mb-3">
+    <div class="row justify-content-evenly position-relative mb-1">
       <div class="col-12">
         <img src="https://i.postimg.cc/W1rTqdhb/Profile-Img2-Blur.jpg"
           class="img-thumbnail image-fluid bg-image hover-zoom" width="300px" height="300px" alt="BlurEffectProfileImg"
