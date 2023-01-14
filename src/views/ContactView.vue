@@ -1,9 +1,5 @@
 <template>
     <div id="contact">
-        <!-- <div id="contact">
-            <img src="Assets/font-images/Contact font image.png" alt="Contact font image" height="110px" width="220px"
-                class="mx-auto d-block m-5 image-fluid" loading="lazy">
-        </div> -->
         <div class="container text-center bg-transparent mt-4 pt-5">
 
             <form action="https://formspree.io/f/myyvjoyz" method="post">
