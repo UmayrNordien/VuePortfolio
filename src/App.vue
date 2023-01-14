@@ -24,6 +24,7 @@ export default {
   text-align: center;
   font-size: 16px;
   color:rgb(229, 229, 229);
+  
   font-family: 'Caveat', cursive;
   font-family: 'Pathway Gothic One', sans-serif;
   font-family: 'Sedgwick Ave Display', cursive;
